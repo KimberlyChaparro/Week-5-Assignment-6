@@ -32,7 +32,7 @@ export default function Entry( { itemData } ) {
         <div className="card-body">
           <h5 className="card-title">{itemData.name}</h5>
           <h6 className="card-subtitle mb-2 text-body-secondary">{itemData.phone}</h6>
-          <a href="#" className="card-link link-primary">{itemData.website}</a>
+          <a href={itemData.website} className="card-link link-primary">{itemData.website}</a>
           <div className = "mt-3">
           <h7>Preview their Dessert Menu</h7>
             <ul className = "col-3">
